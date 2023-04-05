@@ -1,0 +1,22 @@
+{
+  "name": "hyper-am",
+  "version": "0.0.1",
+  "description": "Hyper.js theme for late nights and early mornings",
+  "main": "index.js",
+  "repository": "https://github.com/rewdy/hyper-am",
+  "author": "Andrew Meyer <andrew@rewdy.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm-watch",
+    "build": "node ./_build.js"
+  },
+  "watch": {
+    "build": "src/*.{js,scss}"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.11.0",
+    "nunjucks": "^3.2.3",
+    "prettier": "^2.8.7",
+    "sass": "^1.60.0"
+  }
+}
